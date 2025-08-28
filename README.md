@@ -11,14 +11,15 @@
 ## Installation
 
 ```bash
-npm install @devnomic/marquee
+yarn add "git+https://github.com/SHABIN-K/marquee.git"
+npm install git+https://github.com/shabin/marquee.git
 ```
 
 ## Import
 
 ```ts
-import { Marquee } from "@devnomic/marquee";
-import "@devnomic/marquee/dist/index.css";
+import { Marquee } from "@shabin/marquee";
+import "@shabin/marquee/dist/index.css";
 ```
 
 or you can skip npm install, and just copy and paste the source code into your component ala shadcn ui (don't forget to also copy tailwind config if you do this).
